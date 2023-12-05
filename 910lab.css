@@ -1,0 +1,158 @@
+body {
+    top: 0;
+    margin: 0;
+    left: 0;
+    padding: 0;
+}
+
+.background-img{
+    position:relative;
+    height:100vh;
+    overflow:hidden;
+    filter: brightness(50%)
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container h1{
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container h2{
+    position:absolute;
+    font-size: 34px;
+    margin: 0;
+    padding: 0;
+    font-weight: 450;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin-right:208px;
+    position: absolute;
+    top: 56%;
+    left: 42.9832222%;
+    transform: translate(-50%, -50%);
+}
+
+.leftnav {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    overflow: hidden;
+    background-color: black;
+}
+
+.leftnav a {
+    display:block;
+    color: gray;
+    text-align: left;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+}
+
+.leftnav p {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.leftnav a:hover {
+    display:block;
+    color: white;
+    text-align: left;
+    padding: 14 25px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+}
+
+.leftnav img {
+    display:block;
+    border: 10px solid #333;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about {
+height:98vh;
+margin-left:20%;
+}
+
+.about h1 {
+    height:0px;
+    padding:20px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.about h2 {
+    margin-top:0px;
+    height:0px;
+    padding:20px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif; 
+}
+
+.about i {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+.abouttext {
+    height:40px;
+    padding: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+.aboutbulletintext {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    display:flex;
+}
+
+.aboutbulletintext p {
+    padding-bottom: 10px;
+}
+
+.aboutbulletin_lefttext{
+    width:50%;
+    flex-direction: left;
+}
+
+.aboutbulletin_righttext{
+    width:50%;
+    flex-direction: right;
+}
+
+.about img {
+    padding:20px;
+    float:left;
+}
+
+
