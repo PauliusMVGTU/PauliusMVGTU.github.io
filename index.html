@@ -2,29 +2,30 @@
 <html>  
 <meta charset="UTF-8">
     <head>
-        <link rel="stylesheet" href="style.css">
+        <script src="910lab.js"></script>
+        <link rel="stylesheet" href="910lab.css">
         <title>Portfolio</title>
     </head>
 <body>
-<div id="home">
-    <div class="container">
-        <div class="background-img">
-            <img src="picture.jpg" alt="Picture" width="1980" height="1080">
-        </div>
-            <div class="leftnav">
-                <img src="picture.jpg" alt="Picture" width="150" height="150">
-                <p>Paulius Manylovas</p>
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#resume">Resume</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#services">Services</a>
-                <a href="#contact">Contact</a>
+    <div id="home">
+        <div class="container">
+            <div class="background-img">
+                <img src="picture.jpg" alt="Picture" width="1980" height="1080">
             </div>
-                <h1>Paulius Manylovas</h1>
-                <h2>I'm a Developer</h2>
+                <div class="leftnav">
+                    <img src="picture.jpg" alt="Picture" width="150" height="150">
+                    <p>Paulius Manylovas</p>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#form">Form</a> <!--resume-->
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                    <h1>Paulius Manylovas</h1>
+                    <h2>I'm a Developer</h2>
+        </div>
     </div>
-</div>
     <div id="about">
         <div class="about">
             <h1>About</h1>
@@ -34,21 +35,40 @@
             <img src="picture.jpg" alt="Picture" width="350" height="350">
             <h2>UI/UX Designer & Web Developer</h2>
             <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</i>
-            <div class="aboutbulletintext">
-                <div class="aboutbulletin_lefttext">
-                    <p><b><font color="#62deda">~</font> Birthday: </b>10 March 2003</p>
-                    <p><b><font color="#62deda">~</font> Website: </b>www.example.com</p>
-                    <p><b><font color="#62deda">~</font> Phone: </b>+370 (637) 27 219</p>
-                    <p><b><font color="#62deda">~</font> City: </b>Vilnius, Lithuania</p>
+                <div class="aboutbulletintext">
+                    <div class="aboutbulletin_lefttext">
+                        <p><b><font color="#62deda">~</font> Birthday: </b>10 March 2003</p>
+                        <p><b><font color="#62deda">~</font> Website: </b>https://pauliusmvgtu.github.io</p>
+                        <p><b><font color="#62deda">~</font> Phone: </b>+370 (637) 27 219</p>
+                        <p><b><font color="#62deda">~</font> City: </b>Vilnius, Lithuania</p>
+                    </div>
+                    <div class="aboutbulletin_righttext">
+                        <p><b><font color="#62deda">~</font> Age: </b>20</p>
+                        <p><b><font color="#62deda">~</font> Degree: </b>0_0</p>
+                        <p><b><font color="#62deda">~</font> Email: </b>paulius.manylovas@gmail.com</p>
+                        <p><b><font color="#62deda">~</font> Relationship status: </b>Taken;) (please help)</p>
+                    </div>
                 </div>
-                <div class="aboutbulletin_righttext">
-                    <p><b><font color="#62deda">~</font> Age: </b>20</p>
-                    <p><b><font color="#62deda">~</font> Degree: </b>Bachelor</p>
-                    <p><b><font color="#62deda">~</font> Email: </b>paulius.manylovas@gmail.com</p>
-                    <p><b><font color="#62deda">~</font> Relationship status: </b>Single;)</p>
-                </div>
+            <div class ="abouttext2">
+            <p>Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.</p>
             </div>
         </div>
     </div>
+        <div id="form">
+            <div class="form">
+                <h1>Form</h1>
+                <form>
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                    <label for="r1">First Number: </label><br>
+                    <input type="text" id="r1" name="r1"><br>
+                    <label for="r2">Second Number: </label><br>
+                    <input type="text" id="r2" name="r2"><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
 </body>
 </html>
