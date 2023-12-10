@@ -18,11 +18,7 @@ body {
     color: white;
 }
 
-.containertext{
-    display: flex;
-}
-
-.containertext h1{
+.container h1{
     font-size: 50px;
     margin: 0;
     padding: 0;
@@ -36,7 +32,7 @@ body {
     flex-direction: column;
 }
 
-.containertext h2{
+.container h2{
     position:absolute;
     font-size: 34px;
     margin: 0;
