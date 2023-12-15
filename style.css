@@ -201,6 +201,15 @@ margin-left:20%;
     font-family: "Poppins", sans-serif;
 }
 
+.form h2 {
+    margin-top:0px;
+    height:0px;
+    padding:20px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif; 
+}
+
 .form label {
     line-height:40px;
 }
@@ -219,5 +228,3 @@ margin-left:20%;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
 }
-
-
