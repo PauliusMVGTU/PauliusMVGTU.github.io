@@ -2,7 +2,6 @@
 <html>  
 <meta charset="UTF-8">
     <head>
-        <script src="910lab.js"></script>
         <link rel="stylesheet" href="style.css">
         <title>Portfolio</title>
     </head>
@@ -57,18 +56,20 @@
         <div id="form">
             <div class="form">
                 <h1>Form</h1>
-                <form>
-                    <label for="fname">First name:</label><br>
-                    <input type="text" id="fname" name="fname"><br>
-                    <label for="lname">Last name:</label><br>
-                    <input type="text" id="lname" name="lname"><br>
-                    <label for="r1">First Number: </label><br>
-                    <input type="text" id="r1" name="r1"><br>
-                    <label for="r2">Second Number: </label><br>
-                    <input type="text" id="r2" name="r2"><br>
-                    <input type="submit" value="Submit">
+                <h2>For the First and Second numbers, please type in a Roman Numeral between I and X (1-10)</h2>
+                <form id="myForm">
+                    <label for="firstName">First name:</label><br>
+                    <input type="text" id="firstName" name="firstName" value=""><br>
+                    <label for="lastName">Last name:</label><br>
+                    <input type="text" id="lastName" name="lastName"><br>
+                    <label for="firstNumber">First Number: </label><br>
+                    <input type="text" id="firstNumber" name="firstNumber"><br>
+                    <label for="secondNumber">Second Number: </label><br>
+                    <input type="text" id="secondNumber" name="secondNumber"><br>
+                    <input type="submit" value="Submit" onclick="extractValues(); return false;">
                 </form>
             </div>
         </div>
+    <script src="script.js"></script>
 </body>
 </html>
