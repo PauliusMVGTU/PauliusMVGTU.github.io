@@ -4,6 +4,12 @@
 -------------------------------------------------
 */
 
+@media print {
+    body {
+        font-family: initial;
+    }
+}
+
 body {
     top: 0;
     margin: 0;
@@ -105,6 +111,69 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+.leftnav button {
+    border:none;
+    background:black;
+    display:block;
+    color: gray;
+    text-align: left;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+}
+
+.leftnav button:hover {
+    color:white;
+}
+
+.fa-facebook {
+    margin-bottom:20px;
+    background:rgb(59, 58, 58);
+    padding: 10px;
+    font-size: 20px;
+    width:22px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-facebook:hover {
+    background-color:rgb(51, 137, 218);
+}
+
+.fa-instagram {
+    margin-bottom:20px;
+    background:rgb(59, 58, 58);
+    padding: 10px;
+    font-size: 20px;
+    width:22px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-instagram:hover {
+    background-color:rgb(51, 137, 218);
+}
+
+.fa-spotify {
+    margin-bottom:20px;
+    background:rgb(59, 58, 58);
+    padding: 10px;
+    font-size: 20px;
+    width:22px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-spotify:hover {
+    background-color:rgb(51, 137, 218);
+}
+
+
 
 /*
 -------------------------------------------------
