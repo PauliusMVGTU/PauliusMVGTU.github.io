@@ -30,9 +30,19 @@ function extractValues() {
     else if (secondNumber == 'X') {secondNumber = 10;}
     else {secondNumber = undefined; checkIfCorrect = false;}
 
-    if (checkIfCorrect == false){console.log('Please type in Roman Numerals between I-X (1-10)')}
+    if (checkIfCorrect === false) {
+        console.log('Please type in Roman Numerals between I-X (1-10)');
+        resultText = 'Please type in Roman Numerals between I-X (1-10)';
+    }
+    else {
+        console.log(firstName + ' ' + lastName + ' ' + firstNumber + ' ' + secondNumber);
+        var resultText = firstName + ' ' + lastName + ' ' + firstNumber + ' ' + secondNumber;
+    }
 
-    console.log(firstName + ' ' + lastName + ' ' + firstNumber + ' ' + secondNumber);
+    var paragraph = document.getElementById('paragraph');
+    paragraph.textContent = resultText;
 }
 
-
+function printPage() {
+    window.print();
+}
