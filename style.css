@@ -74,14 +74,12 @@ body {
     background-color: black;
 }
 
-.leftnav a {
+.leftnav img {
     display:block;
-    color: gray;
-    text-align: left;
-    padding: 14px 25px;
-    text-decoration: none;
-    font-size: 17px;
-    font-family: "Poppins", sans-serif;
+    border: 10px solid #333;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .leftnav p {
@@ -93,28 +91,35 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-
-.leftnav a:hover {
-    display:block;
-    color: white;
-    text-align: left;
-    padding: 14 25px;
-    text-decoration: none;
-    font-size: 17px;
-    font-family: "Poppins", sans-serif;
+.pagelinks a:hover .fa-home{
+    color:rgb(51, 137, 218);
 }
 
-.leftnav img {
-    display:block;
-    border: 10px solid #333;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
+.pagelinks a:hover .fa-user-circle-o{
+    color:rgb(51, 137, 218);
 }
 
-.leftnav button {
-    border:none;
-    background:black;
+.pagelinks a:hover .fa-newspaper-o {
+    color:rgb(51, 137, 218);
+}
+
+.pagelinks a:hover .fa-id-card-o {
+    color:rgb(51, 137, 218);
+}
+
+.pagelinks a:hover .fa-rss {
+    color:rgb(51, 137, 218);
+}
+
+.pagelinks a:hover .fa-envelope-o {
+    color:rgb(51, 137, 218);
+}
+
+.pagelinks button:hover .fa-print {
+    color:rgb(51, 137, 218);
+}
+
+.pagelinks a {
     display:block;
     color: gray;
     text-align: left;
@@ -124,7 +129,23 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-.leftnav button:hover {
+.pagelinks a:hover{
+    color:white;
+}
+
+.pagelinks button {
+    display:block;
+    border:none;
+    background:black;
+    color: gray;
+    text-align: left;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+}
+
+.pagelinks button:hover {
     color:white;
 }
 
@@ -137,6 +158,7 @@ body {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+    color:white;
 }
 
 .fa-facebook:hover {
@@ -152,6 +174,7 @@ body {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+    color:white;
 }
 
 .fa-instagram:hover {
@@ -167,10 +190,15 @@ body {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+    color:white;
 }
 
 .fa-spotify:hover {
     background-color:rgb(51, 137, 218);
+}
+
+.fa-user-circle-o:hover{
+    color:rgb(51, 137, 218);
 }
 
 
