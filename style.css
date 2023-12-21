@@ -100,11 +100,11 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-.pagelinks a:hover .fa-home{
+.pagelinks a:hover .fa-home {
     color:rgb(51, 137, 218);
 }
 
-.pagelinks a:hover .fa-user-circle-o{
+.pagelinks a:hover .fa-user-circle-o {
     color:rgb(51, 137, 218);
 }
 
@@ -138,7 +138,7 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-.pagelinks a:hover{
+.pagelinks a:hover {
     color:white;
 }
 
@@ -261,7 +261,7 @@ margin-left:20%;
     display:flex;
 }
 
-.aboutbulletintext a {
+.aboutbulletintext strong {
     color:rgb(51, 137, 218);
 }
 
@@ -346,4 +346,28 @@ margin-left:20%;
     font-size: 15px;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
+}
+
+/*
+-------------------------------------------------
+        MathML
+-------------------------------------------------
+*/
+
+.mathml {
+    height:100vh;
+    margin-left:20%;
+}
+
+.mathml h1 {
+    height:0px;
+    padding:20px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.mathtext{
+    padding:20px;
+    font-size:30px;
 }
