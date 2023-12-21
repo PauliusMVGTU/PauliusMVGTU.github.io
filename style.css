@@ -17,6 +17,15 @@ body {
     padding: 0;
 }
 
+.header-line{
+    padding:0px;
+    margin-left:20px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color:rgb(51, 137, 218);
+}
+
 .background-img{
     position:relative;
     height:100vh;
@@ -221,6 +230,7 @@ margin-left:20%;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
 }
+
 .about h2 {
     margin-top:0px;
     height:0px;
@@ -237,11 +247,11 @@ margin-left:20%;
 }
 
 .abouttext {
-    height:40px;
-    padding: 20px;
-    font-size: 17px;
+    height:80px;
+    padding:20px;
+    font-size: 20px;
     font-weight: 400;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif; 
 }
 
 .aboutbulletintext {
@@ -252,7 +262,7 @@ margin-left:20%;
 }
 
 .aboutbulletintext a {
-    color: #62deda;
+    color:rgb(51, 137, 218);
 }
 
 .aboutbulletintext p {
@@ -303,11 +313,19 @@ margin-left:20%;
 }
 
 .form h2 {
-    margin-top:0px;
     height:0px;
     padding:20px;
     font-size: 20px;
     font-weight: 400;
+    font-family: "Poppins", sans-serif; 
+}
+
+.about h2 {
+    margin-top:0px;
+    height:0px;
+    padding:20px;
+    font-size: 30px;
+    font-weight: 600;
     font-family: "Poppins", sans-serif; 
 }
 
