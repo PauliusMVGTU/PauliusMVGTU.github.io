@@ -4,6 +4,9 @@
 <html lang="en">
 <meta charset="UTF-8">
     <head>
+        <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+        </script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style.css">
         <title>Portfolio</title>
@@ -26,7 +29,7 @@
                         <a href="#home"><i class="fa fa-home"></i> Home</a>
                         <a href="#about"><i class="fa fa-user-circle-o" aria-hidden="true"></i> About</a>
                         <a href="#form"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Form</a> <!--resume-->
-                        <a href="#portfolio"><i class="fa fa-id-card-o" aria-hidden="true"></i> Portfolio</a>
+                        <a href="#mathml"><i class="fa fa-id-card-o" aria-hidden="true"></i> MathML</a>
                         <a href="#services"><i class="fa fa-rss" aria-hidden="true"></i> Services</a>
                         <a href="#contact"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact</a>
                         <button id="printButton" onclick="printPage()"><i class="fa fa-print" aria-hidden="true"></i> Print Page</button>
@@ -48,16 +51,16 @@
             <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</i>
                 <div class="aboutbulletintext">
                     <div class="aboutbulletin_lefttext">
-                        <p><b><a color="#62deda">~</a> Birthday: </b>10 March 2003</p>
-                        <p><b><a color="#62deda">~</a> Website: </b>https://pauliusmvgtu.github.io</p>
-                        <p><b><a color="#62deda">~</a> Phone: </b>+370 (637) 27 219</p>
-                        <p><b><a color="#62deda">~</a> City: </b>Vilnius, Lithuania</p>
+                        <p><b><strong>~</strong> Birthday: </b>10 March 2003</p>
+                        <p><b><strong>~</strong> Website: </b>https://pauliusmvgtu.github.io</p>
+                        <p><b><strong>~</strong> Phone: </b>+370 (637) 27 219</p>
+                        <p><b><strong>~</strong> City: </b>Vilnius, Lithuania</p>
                     </div>
                     <div class="aboutbulletin_righttext">
-                        <p><b><a color="#62deda">~</a> Age: </b>20</p>
-                        <p><b><a color="#62deda">~</a> Degree: </b>0_0</p>
-                        <p><b><a color="#62deda">~</a> Email: </b>paulius.manylovas@gmail.com</p>
-                        <p><b><a color="#62deda">~</a> Relationship status: </b>Taken;) (please help)</p>
+                        <p><b><strong>~</strong> Age: </b>20</p>
+                        <p><b><strong>~</strong> Degree: </b>0_0</p>
+                        <p><b><strong>~</strong> Email: </b>paulius.manylovas@gmail.com</p>
+                        <p><b><strong>~</strong> Relationship status: </b>Taken;) (please help)</p>
                     </div>
                 </div>
             <div class ="abouttext2">
@@ -87,5 +90,51 @@
     <script src="script.js"></script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-</body>
+        <div id="mathml">
+            <div class="mathml">
+                <h1>MathML</h1>
+                    <div class="header-line">_________</div>
+                        <div class="mathtext">
+                            <math>
+                                <mrow>
+                                    <msup>
+                                        <mi>e</mi>
+                                        <mi>x</mi>
+                                    </msup>
+                                    <mo>=</mo>
+                                    <mn>1</mn>
+                                    <mo>+</mo>
+                                    <mfrac>
+                                        <mi>x</mi>
+                                        <mn>1!</mn>
+                                    </mfrac>
+                                    <mo>+</mo>
+                                    <mfrac>
+                                        <msup>
+                                            <mi>x</mi>
+                                            <mn>2</mn>
+                                        </msup>
+                                        <mn>2!</mn>
+                                    </mfrac>
+                                    <mo>+</mo>
+                                    <mfrac>
+                                        <msup>
+                                            <mi>x</mi>
+                                            <mn>3</mn>
+                                        </msup>
+                                        <mn>3!</mn>
+                                    </mfrac>
+                                    <mo>+</mo>
+                                    <mtext>... , </mtext>
+                                    <mo>-&infin;</mo>
+                                    <mo><</mo>
+                                    <mo>x</mo>
+                                    <mo><</mo>
+                                    <mo>&infin;</mo>
+                                </mrow>
+                            </math>
+                        </div>
+            </div>  
+        </div>
+    </body>
 </html>
