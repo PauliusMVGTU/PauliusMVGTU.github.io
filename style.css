@@ -251,6 +251,10 @@ margin-left:20%;
     display:flex;
 }
 
+.aboutbulletintext a {
+    color: #62deda;
+}
+
 .aboutbulletintext p {
     padding-bottom: 10px;
 }
