@@ -1,3 +1,3 @@
 Sukurti:
-  [*] table html koda ir stilizacija
-  [*] darbo aprasa
+  [ ] table html koda ir stilizacija
+  [ ] darbo aprasa
