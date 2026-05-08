@@ -1,9 +1,20 @@
 # PauliusMVGTU.github.io
-Internetines portfolijos svetaine sukurta manes (nenoriu daugiau informacios apie save pateikineti, galima atsidaryti puslapi jeigu domina:) ).
-Paleisti svetaine naudojami: 
-index.html (pagrindinis html kodas); 
-style.css (html elementu stilizacija);
-script.js(JavaScript kodas);
-picture.jpg(naudojama nuotrauka svetaineje).
 
-Isbandyti svetaine galima naudojant VS Code Live Server pletini.
+Nuoroda i projekta: [ PauliusMVGTU.github.io ]
+(https://github.com/PauliusMVGTU/PauliusMVGTU.github.io)
+
+## Projekto funkcijos
+- 1920 x 1080 desktop only
+- png image
+- table
+- form
+- about page
+- home page
+
+Design: Porfolio
+
+# Autorius
+
+[Paulius](https://github.com/PauliusMVGTU)
+
+Paulius: [Github](https://github.com/PauliusMVGTU)
