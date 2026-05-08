@@ -1,1 +1,3 @@
-Prideti .table stilizacija bei html koda
+Sukurti:
+  [*] table html koda ir stilizacija
+  [*] darbo aprasa
