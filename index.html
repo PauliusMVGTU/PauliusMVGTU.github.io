@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style.css">
         <title>Portfolio</title>
+        <meta name="description" content="Portfolio for Paulius Manylovas">
     </head>
 <body>
     <div id="home">
@@ -22,12 +23,17 @@
                             <a href="https://www.facebook.com/paulius.manylovas" target="blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                             <a href="https://www.instagram.com/paulius_manylovas/" target="blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                             <a href="https://open.spotify.com/artist/3oiCkhSvFN2rzFjRBeNZ7j?si=18adbdf8c71140c3" target="blank"><i class="fa fa-spotify" aria-hidden="true"></i></a>
+                                <p>
+                                    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                                        <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+                                    </a>
+                                </p>
                         </div>
                     <div class="pagelinks">
                         <a href="#home"><i class="fa fa-home"></i> Home</a>
                         <a href="#about"><i class="fa fa-user-circle-o" aria-hidden="true"></i> About</a>
                         <a href="#form"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Form</a> <!--resume-->
-                        <a href="#mathml"><i class="fa fa-id-card-o" aria-hidden="true"></i> MathML</a>
+                        <a href="#table"><i class="fa fa-id-card-o" aria-hidden="true"></i> Table</a>
                         <a href="#services"><i class="fa fa-rss" aria-hidden="true"></i> Services</a>
                         <a href="#contact"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact</a>
                         <button id="printButton" onclick="printPage()"><i class="fa fa-print" aria-hidden="true"></i> Print Page</button>
@@ -55,7 +61,7 @@
                         <p><b><strong>~</strong> City: </b>Vilnius, Lithuania</p>
                     </div>
                     <div class="aboutbulletin_righttext">
-                        <p><b><strong>~</strong> Age: </b>20</p>
+                        <p><b><strong>~</strong> Age: </b>23</p>
                         <p><b><strong>~</strong> Degree: </b>0_0</p>
                         <p><b><strong>~</strong> Email: </b>paulius.manylovas@gmail.com</p>
                         <p><b><strong>~</strong> Relationship status: </b>Taken;) (please help)</p>
@@ -85,52 +91,42 @@
                 </form>
             </div>
         </div>
-        <div id="mathml">
-            <div class="mathml">
-                <h1>MathML</h1>
-                    <div class="header-line">_________</div>
-                        <div class="mathtext">
-                            <math>
-                                <mrow>
-                                    <msup>
-                                        <mi>e</mi>
-                                        <mi>x</mi>
-                                    </msup>
-                                    <mo>=</mo>
-                                    <mn>1</mn>
-                                    <mo>+</mo>
-                                    <mfrac>
-                                        <mi>x</mi>
-                                        <mn>1!</mn>
-                                    </mfrac>
-                                    <mo>+</mo>
-                                    <mfrac>
-                                        <msup>
-                                            <mi>x</mi>
-                                            <mn>2</mn>
-                                        </msup>
-                                        <mn>2!</mn>
-                                    </mfrac>
-                                    <mo>+</mo>
-                                    <mfrac>
-                                        <msup>
-                                            <mi>x</mi>
-                                            <mn>3</mn>
-                                        </msup>
-                                        <mn>3!</mn>
-                                    </mfrac>
-                                    <mo>+</mo>
-                                    <mtext>... , </mtext>
-                                    <mo>-&infin;</mo>
-                                    <mo>&lt;</mo>
-                                    <mo>x</mo>
-                                    <mo>&lt;</mo>
-                                    <mo>&infin;</mo>
-                                </mrow>
-                            </math>
-                        </div>
-            </div>  
-        </div>
+<div id="table">
+    <div class="table">
+        <h1>Table</h1>
+        <div class="header-line">_________</div>
+        <table class="portfolio-table">
+            <thead>
+                <tr>
+                    <th>Project Name</th>
+                    <th>Technology</th>
+                    <th>Year</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Personal Portfolio</td>
+                    <td>HTML/CSS/JS</td>
+                    <td>2026</td>
+                    <td>In Progress</td>
+                </tr>
+                <tr>
+                    <td>E-commerce Site</td>
+                    <td>React</td>
+                    <td>2025</td>
+                    <td>Completed</td>
+                </tr>
+                <tr>
+                    <td>Mobile App</td>
+                    <td>Flutter</td>
+                    <td>2024</td>
+                    <td>Archived</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
     <script src="script.js"></script>
     </body>
 </html>
